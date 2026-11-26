@@ -1,0 +1,80 @@
+
+/* 全体の設定 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Yu Gothic", sans-serif;
+    background-color: #f4f6fb;
+    color: #333;
+}
+
+/* ヘッダー */
+header {
+    background-color: #4f70d8;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 32px;
+}
+
+header p {
+    margin-bottom: 0;
+}
+
+/* メイン画面 */
+main {
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* 各セクション */
+.form-section,
+.list-section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.06);
+}
+
+h2 {
+    font-size: 21px;
+    margin-top: 0;
+}
+
+/* 入力フォーム */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input {
+    padding: 13px;
+    border: 1px solid #ddd;
+    border-radius: 7px;
+    font-size: 16px;
+}
+
+/* ボタン */
+button {
+    background-color: #4f70d8;
+    color: white;
+    border: none;
+    padding: 14px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3859bd;
+}

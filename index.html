@@ -1,0 +1,42 @@
+\<!DOCTYPE html>
+
+\<html lang="ja"> \<head>     \<meta charset="UTF-8">     \<meta name="viewport" content="width=device-width, initial-scale=1.0">     \<title>Schedule Mate - 予定管理アプリ\</title>     \<link rel="stylesheet" href="style.css"> \</head> \<body>
+
+```
+<header>
+    <h1>Schedule Mate</h1>
+    <p>毎日の予定を簡単に管理しよう</p>
+</header>
+
+<main>
+    <section class="form-section">
+        <h2>予定を追加する</h2>
+
+        <form id="schedule-form">
+            <input type="text" id="title" placeholder="予定の名前" required>
+
+            <input type="date" id="date" required>
+
+            <input type="time" id="time" required>
+<select id="category" required>
+    <option value="学校">学校</option>
+    <option value="アルバイト">アルバイト</option>
+    <option value="プライベート">プライベート</option>
+</select>
+            <button type="submit">予定を追加</button>
+        </form>
+    </section>
+
+    <section class="list-section">
+        <h2>予定一覧</h2>
+        <div id="schedule-list">
+            <p>まだ予定はありません。</p>
+        </div>
+    </section>
+</main>
+
+<script src="script.js"></script>
+```
+
+\</body>
+\</html>
